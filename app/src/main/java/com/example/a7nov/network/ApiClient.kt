@@ -18,7 +18,7 @@ object ApiClient {
             .build()
 
         val builder = Retrofit.Builder()
-            .baseUrl("https://rickandmortyapi.com/api/")
+            .baseUrl("https://demo.lazday.com/rest-api-sample/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 

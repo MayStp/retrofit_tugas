@@ -50,4 +50,13 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.6.2")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.9.1")
+    // glide
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+
+    //recycle
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
+
+    // image
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation ("com.makeramen:roundedimageview:2.3.0")
 }

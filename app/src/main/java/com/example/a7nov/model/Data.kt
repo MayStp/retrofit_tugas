@@ -3,18 +3,18 @@ package com.example.a7nov.model
 import com.google.gson.annotations.SerializedName
 
 data class Data(
-    @SerializedName("results")
-    val `results` : List<RickData>
+    @SerializedName("result")
+    val results : List<HeroData>
 
 
 
 )
 
-data class RickData(
+data class HeroData(
     @SerializedName("id")
-    val `id`:Int,
-    @SerializedName("name")
-    val `name`:String,
-    @SerializedName("species")
-    val `species`:String,
+    val id:Int,
+    @SerializedName("title")
+    val title:String,
+    @SerializedName("image")
+    val image:String,
 )

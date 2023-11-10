@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 
 interface ApiService {
-    @GET("character")
+    @GET("data.php")
     fun getAllChars(): Call<Data>
 }
